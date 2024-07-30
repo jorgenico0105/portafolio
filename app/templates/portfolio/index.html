@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}
+Inicio
+{% endblock%}
+
+{% block content  %}
+<div class="hero">
+	<div class="hero-content">	
+		<div class="left">
+			<h1>Soy Desarrollador</h1>
+			<h1>Nicolas Granda</h1>
+			<p>Contruyo aplicaciones en Python Utilizando bases de datos relacionales</p>
+			<a href="#contacto" class="button">Contactame</a>
+		</div>
+		<div class="right">
+			<img src="{{url_for('static',filename='big-data.png')}}" width=600px/>
+		</div>
+	</div>	
+</div>
+{%  include 'portfolio/section-first.html' %}
+{%  include 'portfolio/section-second.html' %}
+{% endblock %}
