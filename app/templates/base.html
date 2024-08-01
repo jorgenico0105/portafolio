@@ -26,6 +26,28 @@
     <section>
         {% block content %}
         {% endblock %}
-    </section>    
+    </section>
+    <div class="footer">       
+        <div class="center full-width">      
+            <div class="row">
+                <h3>Contactame</h3> 
+            </div>
+        </div>
+        <div class="center full-width">
+            <p>O tambien puedes contactarme en mis redes sociales</p>
+        </div>
+        <div class="center full-width social-links">
+            <div class="row">
+                <a href="#"><img src="{{url_for('static',filename='twitter.png')}}" class="social" width=30 /></a>
+                <a href="#"><img src="{{url_for('static',filename='facebook.png')}}" class="social" width=30 /></a>
+                <a href="https://www.linkedin.com/in/jorge-granda-9099bb210?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXiH2sgqPTF6LUUBeKKoSDg%3D%3D"><img src="{{url_for('static',filename='linkedin.png')}}" class="social" width=30 /></a>
+            </div>
+        </div>
+        <div class=" center made-with">
+            <div class="row">
+                <p>Hecho con mucho amor y esfuerzo.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

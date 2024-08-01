@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+Email-Enviado
+{%  endblock %}
+{% block content%}
+<div class="hero">
+	<div class="hero-content">
+		<div class="left">
+			<h1>Excelente correo Enviado!</h1>
+			<p>Estaremos revisando tu correo, bueno estare! jaja. Gracias por tu interes.</p>
+		</div>
+		<div class="right">
+			<img src="{{url_for('static',filename='email-read.png')}}" width=600>
+		</div>
+	</div>
+</div>
+{% endblock %}
