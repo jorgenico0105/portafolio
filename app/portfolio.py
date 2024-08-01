@@ -37,4 +37,4 @@ def send_email(name, email, mensaje):
     mail = Mail(from_email, to_email, 'Nuevo contacto desde la web', html_content=html_content)
     response = sg.client.mail.send.post(request_body=mail.get())
 
-# Asegúrate de que el Blueprint esté registrado en tu aplicación principal
+
